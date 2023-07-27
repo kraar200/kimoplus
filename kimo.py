@@ -62,17 +62,11 @@ from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
 
 
-
-
 from telethon.utils import get_display_name
 
 
 
-
-
 from telethon.tl.functions.channels import JoinChannelRequest
-
-
 
 
 
@@ -81,16 +75,11 @@ from telethon.errors import FloodWaitError
 
 
 
-
 from telethon import TelegramClient, events
 
 
 
-
-
 from collections import deque
-
-
 
 
 
@@ -99,16 +88,10 @@ from telethon import functions
 
 
 
-
 from telethon.errors.rpcerrorlist import (
 
 
-
-
-
     UserAlreadyParticipantError,
-
-
 
 
 
@@ -118,11 +101,7 @@ from telethon.errors.rpcerrorlist import (
 
 
 
-
-
 from telethon.tl.functions.channels import InviteToChannelRequest
-
-
 
 
 
@@ -131,16 +110,11 @@ from telethon.tl.types import InputPeerUser
 
 
 
-
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 
 
-
-
 from telethon.tl import functions
-
-
 
 
 
@@ -149,9 +123,7 @@ from hijri_converter import Gregorian
 
 
 
-
 from telethon.tl.functions.channels import LeaveChannelRequest
-
 
 
 
@@ -178,53 +150,7 @@ import requests
 
 
 
-
-
-# -
-
-
-
-
-
-# - kimo TEAM 
-
-
-
-
-
-# -
-
-
-
-
-
-
-
-
-
-
-
 kimo1.start()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
